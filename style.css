@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: Outfit;
+}
+
+.title {
+    text-align: center; 
+}
+
+.title h2 {
+    font-weight: none;
+    font-size: 30px;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+}
+
+.bio ul {
+    margin-top: 10px;
+   list-style: circle;
+}
+
+.bio li {
+    margin-top: 6px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+}
+
+.badges img {
+    width: 60px;
+    height: 60px ;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    opacity: 0.6;
+}
+
+.badges img:hover {
+    flex-shrink: 0;
+    opacity: 1;
+    border: 2px solid lavender;
+    box-shadow: 0 0 10px rgb(153, 153, 245);
+    transition: all 600ms ease;
+    cursor: pointer;
+}
