@@ -51,8 +51,8 @@ body {
 .badges img:hover {
     flex-shrink: 0;
     opacity: 1;
-    border: 2px solid lavender;
-    box-shadow: 0 0 10px rgb(153, 153, 245);
+    border: 2px solid transparent;
+    box-shadow: 0 0 20px #3b23d3;
     transition: all 600ms ease;
     cursor: pointer;
 }
