@@ -31,24 +31,35 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .badges {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.badges img {
+.badges img:nth-child(9) {
+    margin-top: 20px;
+    width: 140px;
+    margin-left: 20px;
+}
+
+.badges img:not(:nth-child(9)) {
     width: 60px;
     height: 60px ;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
     border: 2px solid transparent;
     border-radius: 50px;
     opacity: 0.6;
 }
 
-.badges img:hover {
+.badges img:hover:not(:nth-child(9)) {
     flex-shrink: 0;
     opacity: 1;
     border: 2px solid transparent;
